@@ -2,7 +2,6 @@ var express = require('express');
 var http = require('http');
 var path = require('path');
 var app = express();
-var fs = require('fs');
 var bodyParser = require('body-parser');
 app.use(bodyParser.json()); 
 app.use(bodyParser.urlencoded({ extended: true }));
